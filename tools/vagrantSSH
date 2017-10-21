@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# change to vagrant directory
+cd ~/vagrant/centos67
+
+# restart to boot vm
+vagrant reload
+
+# login to vagrant server
+vagrant ssh

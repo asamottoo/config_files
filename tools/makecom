@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -z $1 ];then
+	echo 'filename not found...'
+	exit
+fi
+
+vi /Users/t.asamoto/tools/$1
+
+initmycom
