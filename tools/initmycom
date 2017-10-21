@@ -1,3 +1,3 @@
 #!/bin/sh
 
-chmod -R 777 /Users/t.asamoto/tools/
+chmod -R 777 /Users/`whoami`/tools/
